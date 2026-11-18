@@ -1,0 +1,3 @@
+read_slang counter.sv
+prep -top top
+sim -fst counter.fst -clock clk -resetn resetn top
